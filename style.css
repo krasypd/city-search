@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	padding: 10%;
+	display: flex;
+	height: 100vh;
+	align-items: flex-start;
+	justify-content: center;
+	background-color: rgb(252, 191, 73);
+	font-family: 'Galada', cursive;
+}
+
+.search-form {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Galada', cursive;
+	color: rgb(0, 48, 73);
+}
+
+.search {
+	height: 5vh;
+	width: 50vw;
+	padding: 2%;
+	margin: 5%;
+	font-size: 2rem;
+	outline: 0;
+	font-family: 'Galada', cursive;
+}
+
+.suggestions {
+	padding: 2%;
+	margin: 5%;
+	margin-top: 0;
+	font-size: 1rem;
+	color: rgb(0, 48, 73);
+}
